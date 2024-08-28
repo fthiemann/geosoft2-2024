@@ -45,7 +45,7 @@ Be prepared for questions by your fellow students and the teachers, but also pre
 
 ### Topics & content
 
-The goal of the project in this semester is to develop a userfriendly web catalogue for the search and retrieval of machine learning models for EO datacubes.
+The goal of the project in this semester is to develop a user-friendly web catalogue for the search and retrieval of machine learning models for EO datacubes.
 
 Your presentations and handouts will serve as preparation by discussing several relevant topics that form the technical background of this project task. 
 
