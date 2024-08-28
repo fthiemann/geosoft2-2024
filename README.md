@@ -49,6 +49,6 @@ Be prepared for questions by your fellow students and the teachers, but also pre
 
 Your presentations and handouts will serve as preparation by discussing several relevant topics that form the technical background of this project task. 
 
-The specific topics will be posted on Wednesday, 30th August, as GitHub issues with label "Topic". Choose a topic by commenting on the respective issue. Make sure you cover at least the mentioned keywords. More is better, but only really better if you evaluate alternatives, phrase opinions, and provide guidelines for your fellow students.
+The specific topics will be posted on Friday, 30th August, as GitHub issues with label "Topic". Choose a topic by commenting on the respective issue. Make sure you cover at least the mentioned keywords. More is better, but only really better if you evaluate alternatives, phrase opinions, and provide guidelines for your fellow students.
 
 
