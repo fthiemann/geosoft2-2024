@@ -1,13 +1,15 @@
+## Data cubes for earth observation data
+Authors: [@anienabe](https://github.com/anienabe), [fthieman](https://github.com/fthieman)
 ### What are Datacubes? 
-
 A data cube is a multidimensional array of values, typically used to represent data in a structured format for analysis and querying. While the number of dimensions can vary, three dimensions are most common. This is because much of the data we encounter is two-dimensional, such as spreadsheets or images. When you stack hundreds or thousands of these two-dimensional datasets—like satellite images taken over different months—you create a three-dimensional structure, with time serving as the third dimension. This stacked format resembles a cube, hence the name "data cube." 
 
 In a geographic context, the typical dimensions for width and length correspond to the x- and y-coordinates of latitude and longitude. Depending on the use case, the third dimension could be depth (e.g., when working with geologic or oceanographic data), altitude (e.g., when analyzing atmospheric data), or time, which is the leading third dimension in the context of earth observation.  
+![data cubes](https://github.com/fthiemann/geosoft2-2024/blob/main/data_cubes.png)
+Architecture of a data cube; Source: Kopp et al.
 
-  
+<br />
 
 ### Benefits 
-
 #### Handling large amounts of data 
 When observing the Earth, the amount of data collected and stored is enormous. The organized, array-based structure of a data cube facilitates access to the needed data.  
 
@@ -18,7 +20,8 @@ Due to the organized structured by the grouped data, it is quick and easy for th
 Users can make different kinds of queries: 
 
 - Request data from a specific location (e.g., a time series of observations from that area) 
-- Request data from a specific time (e.g., an image from that date). 
+- Request data from a specific time (e.g., an image from that date).
+![selection data cubes](https://github.com/fthiemann/geosoft2-2024/blob/main/selection_data_cubes.png)
 
 
 #### Complex analyses 
@@ -39,9 +42,9 @@ Data cubes can integrate data from various sources and sensors, harmonizing diff
 Data once stored and processed correctly in a data cube, can directly be used for computation, e.g. for machine learning.  
 
  
+<br />
 
 ### Challenges 
-
 #### Large amount of data  
 The biggest challenge when working with data cubes is the sheer volume of data, which can reach petabytes in size. For storing those amounts of data locally a certain infrastructure is necessary of which the costs can be prohibitively high. Currently, it is most effective to use public commercial clouds like Amazon AWS, Google Cloud, or Microsoft Azure to optimize data storage. Additionally, data compression techniques for images can help manage storage needs. 
 
@@ -73,9 +76,9 @@ Many users who want to work with data cubes may not possess the necessary techni
 Legal and ethical challenges in data cubes and Earth observation primarily revolve around privacy concerns and data protection regulations. Organizations must handle the collected data responsibly, consider individuals' privacy, and avoid misuse. To ensure that data cubes follow the FAIR principles, ISO 19123-1/19123-3 were instated and updated. 
 
  
+<br />
 
 ### Use Cases 
-
 #### Water Resources Management 
 Data cubes have been effectively used for managing water resources by tracking changes in water extent, monitoring wetlands, and assessing flood risks. 
 
@@ -90,9 +93,9 @@ By providing timely and easily accessible data, data cubes support disaster resp
 This is consequently also important for the government and their political decisions in a natural disaster. 
 
 
+<br />
 
 ### Practical Examples 
-
 #### Australian GeoScience Data Cube 
 Developed by Geoscience Australia and hosted on the National Computational Infrastructure at the Australian National University, the Australian GeoScience Data Cube represents a significant advancement in Earth observation data management. This pixel-aligned collection comprises over 300,000 Landsat scenes from across Australia, all geometrically and spectrally calibrated to accurately reflect the Earth's surface. As the first continental Landsat data cube featuring overlapping temporal scenes, it paves the way for innovative analytical approaches.  
 
@@ -106,10 +109,10 @@ DEA provides free satellite imagery amounting to nearly 1.5 petabytes. The data 
 #### Digital Earth Africa 
 Digital Earth Africa (DEA) is the largest project under NASA's Committee on Earth Observation Satellites (CEOS) initiative, utilizing the Open Data Cube technology to create a comprehensive data cube for the African continent. It includes datasets from Landsat and Sentinel-1, offering a rich collection of satellite imagery and web services. Through DEA, users can explore spectral indices over time and perform interactive change detection using spectral and radar data. A notable example is the detection of changes in the Volta River area in central Ghana. The data is easily accessible via the Africa GeoPortal. 
 
- 
+
+<br />
 
 ### Sources 
-
 Achieving the Full Vision of Earth Observation Data Cubes; Kopp et al. 
 
 https://www.mdpi.com/2306-5729/4/3/94 (Stand: 06.10.2024) 
